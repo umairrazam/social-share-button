@@ -6,7 +6,7 @@ module SocialShareButton
       extra_data = {}
       rel = opts[:rel]
       html = []
-      html << "<div class='d-flex justify-content-center social-share-button' data-title='#{h title}' data-img='#{opts[:image]}'"
+      html << "<div class='d-flex justify-content-center  social-share-button' data-title='#{h title}' data-img='#{opts[:image]}'"
       html << ""
       html << "data-url='#{opts[:url]}' data-desc='#{opts[:desc]}' data-via='#{opts[:via]}'>"
       opts[:allow_sites].each do |name|
